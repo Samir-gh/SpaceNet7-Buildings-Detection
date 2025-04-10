@@ -1,7 +1,7 @@
 from args import *
 from UNet_monai import Unet
 from pytorch_lightning import Trainer
-from pytorch_lightning.utilities.seed import seed_everything
+from pytorch_lightning import seed_everything
 from pytorch_lightning.callbacks import ModelCheckpoint
 from dataset import SpaceNet7DataModule
 
